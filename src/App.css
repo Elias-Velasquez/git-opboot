@@ -14,12 +14,12 @@
 }
 
 .Header{
-  background: rgb(17,31,51);
-background: linear-gradient(180deg, rgba(17,31,51,1) 0%, rgba(29,53,87,1) 41%, rgba(69,123,157,1) 90%);
+  background: rgb(29,53,87);
+background: linear-gradient(180deg, rgba(29,53,87,1) 0%, rgba(43,78,112,1) 50%, rgb(62, 121, 158) 100%);
   color: #f1faee;
-  height: 20%;
+  height: 25%;
   align-items: center;
-  animation: gradient 15s ease infinite;
+  animation: gradient 10s ease infinite;
   animation-direction: reverse;
   background-size: 100% 300%;
   
@@ -46,7 +46,7 @@ background: linear-gradient(180deg, rgba(17,31,51,1) 0%, rgba(29,53,87,1) 41%, r
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  animation: borde 15s ease infinite;
+  animation: borde 10s ease infinite;
 }
 
 @keyframes borde {
